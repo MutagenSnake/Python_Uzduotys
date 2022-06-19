@@ -1,0 +1,23 @@
+Išrinkite visus žodžius, prasidedančius viena didžiąja raide.
+    [A-Z]\S+
+Išrinkite visus žodžius, kurie yra iš visų didžiųjų raidžių (PVM, SWIFT, HABALT22)
+    [A-Z]+\s
+Parašykite šabloną trumpąjam telefono numeriui (nereikia idealaus, tiesiog išrinkite 1884 ir 1663)
+    \n\d{4}\s
+Parašykite šabloną ilgąjam telefono numeriui
+    \+\d{3}\s\d\s\d{3}\s\d{4}
+Parašykite šabloną fakso numeriui
+    \(\d\s\d\)\s\d{3}\s\d{4}
+Parašykite šabloną, kuris tiktų ir ilgąjam telefono numeriui, ir faksui (naudokite '|' ir grupavimą)
+    \+\d{3}|\s\d{3}\s\d{4}|\(\d\s\d\)\s\d{3}\s\d{4}
+Parašykite šabloną banko sąskaitos numeriui
+    [A-Z]{2}\d{2}\s\d{4}\s\d{4}\s\d{4}\s\d{4}\s
+Parašykite šabloną PVM mokėtojo kodui
+    [A-Z]{2}\d{9}
+Išrinkite visus žodžius prieš dvitaškį
+    .+:
+Parašykite paprastą šabloną el. paštui
+    [^ ]*@[^.]*.*
+[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6} - Tai yra nesudėtingas el. pašto šablonas. Išnagrinėkite, palyginkite su savo sukurtu.
+    Pas mane galima prirašyti netinkamų simbolių.
+Nebūtina kas kartą kurti to, kas jau senai atitirbta. Internete gausu informacijos apie dažniausiai naudojamus regex šablonus. Pvz. https://digitalfortress.tech/tricks/top-15-commonly-used-regex/ - pasinagrinėkite.

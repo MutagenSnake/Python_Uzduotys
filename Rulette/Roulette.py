@@ -12,14 +12,16 @@ class Roulette:
 
 ''' Netinka, nes užsifiksuoja ties ta pačia spalva, reikės paaiškinimo'''
 # class Throw:
-#     number = randint(0, 37)
-#     color = ''
-#     if number in Roulette.reds:
-#         color = 'red'
-#     elif number in Roulette.blacks:
-#         color = 'black'
-#     else:
-#         color = 'green'
+#     def __init__(self):
+#         self.number = randint(0, 37)
+#         if self.number in Roulette.reds:
+#             self.color = 'red'
+#         elif self.number in Roulette.blacks:
+#             self.color = 'black'
+#         else:
+#             self.color = 'green'
+
+
 
 def get_color():
     number = randint(0, 37)

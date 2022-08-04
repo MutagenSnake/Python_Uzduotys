@@ -1,0 +1,78 @@
+header {
+background: black;
+text-align: center;
+}
+
+header h1{
+color: white;
+text-align: left;
+margin-left: 3rem;
+margin-right: 3rem;
+}
+
+nav {
+background: orange;
+text-align: right;
+padding: 0.5rem;
+margin: 0.5rem;
+margin-left: 3rem;
+margin-right: 3rem;
+}
+
+nav a{
+color: white;
+text-decoration: none;
+}
+
+.about {
+margin-left: 3rem;
+margin-right: 3rem;
+}
+
+.go_table {
+text-align: center;
+}
+
+.go_table span {
+background-color: red;
+padding: 0.5rem;
+border-radius: 1rem;
+}
+
+.table {
+margin-left: 3rem;
+margin-right: 3rem;
+padding-bottom: 2rem;
+background: darkblue;
+color: white;
+}
+
+table {
+border-collapse: collapse;
+text-align: center;
+table-align: center;
+margin-left:auto;
+margin-right:auto;
+width: 90%;
+}
+
+table td, th {
+border: 2px solid #999;
+padding: 0.5rem;
+border-color: red;
+}
+
+.contacts {
+margin-left: 3rem;
+margin-right: 3rem;
+}
+
+.up{
+text-align: center;
+}
+
+footer {
+text-align: center;
+background: orange;
+padding: 0.25rem;
+}

@@ -1,0 +1,88 @@
+header {
+     text-align: center;
+}
+
+nav {
+    background: black;
+    border-color: red;
+    border-style: solid;
+    border-radius:5px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+
+nav>a{
+    font-size: 40px;
+    color: #F18607;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+    background: yellow;
+    border-radius:5px;
+}
+
+body {
+  background-color: black;
+}
+
+.intro > p {
+    color: red;
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.people {
+    max-width: 700px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.people:hover {
+    max-width: 700px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.people h2 {
+    color: white;
+}
+
+.people p{
+    color: white;
+}
+
+.person_pic {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    shape-outside: circle(50%);
+    clip-path: circle();
+
+}
+
+.people_section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

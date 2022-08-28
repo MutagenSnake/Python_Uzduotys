@@ -108,3 +108,7 @@ footer {
     border-style: solid;
     border-color: white;
 }
+
+.picture:hover {
+    transform: scale(1.5, 1.5);
+}

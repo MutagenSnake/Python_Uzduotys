@@ -12,14 +12,14 @@ nav {
 nav{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 
 }
 
 nav>a{
     font-size: 40px;
-    color: #F18607;
+    color: red;
 }
 
 a:link {
@@ -28,7 +28,7 @@ a:link {
 }
 
 a:hover {
-    background: yellow;
+    background: #757575;
     border-radius:5px;
 }
 
@@ -85,4 +85,26 @@ body {
 footer {
     color: white;
     text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section_name {
+    color: red;
+    text-align: center;
+}
+
+.section_name>h2 {
+    font-size: 40px;
+}
+
+.picture {
+    margin: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
 }
